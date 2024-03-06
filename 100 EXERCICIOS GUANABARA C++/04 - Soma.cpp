@@ -5,8 +5,7 @@ using namespace std;
 int main(){
     int n1,n2,n3;
     string resp;
-    bool validar = true;
-    while(validar){
+    while(true){
         cout << "Digite o primeiro numero: ";
         cin >> n1;
         cout << endl;
@@ -14,10 +13,8 @@ int main(){
         cin >> n2;
         n3 = n1 + n2;
         cout << endl;
-        cout << "A Soma é: " << n3 <<endl;
-        if()
-        
-        
+        cout << "A Soma e: " << n3 <<endl;        
     };
+    
     return 0;
 }
